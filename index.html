@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>CheckOut</title>
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <div class="product-image">
+            <img id="product-image" alt="product-image" style="max-width: 100%;">
+            <div class="thumbnails">
+                <!-- Thumbnails should be added dynamilcally -->
+            </div>
+        </div>
+        
+        <div class="product-details">
+            <div class="productVendor"></div>
+            <div class="productTitle"></div>
+            <hr>
+            <div class="priceContainer">
+            <div class="productPrice"></div>
+            <div class="percentageOff"></div>
+        </div>
+            <div class="compareAtPrice"></div>
+            
+            <hr>
+            <div class="colorSelector">
+                <p>Choose a Color</p>
+            </div>
+            <hr>
+            <div class="sizeSelector">
+                <p>Choose a Size</p>
+            </div>
+            <div class="quantity_cart">
+                <div class="quantitySelector">
+                <button id="decreaseQuantity">-</button>
+                <input type="text" id="quantity" value="1">
+                <button id="increaseQuantity">+</button>
+                
+                </div>
+             <div class="addToCart">
+                <img src="./images/icons8-bag-96.png" alt="Add to cart" class="cart-icon">
+                <button id="addToCartButton">
+                  Add to Cart 
+                </button>
+                </div>
+            </div>
+           
+            <div class="cartContainer"></div>
+            <div class="selectionMessage"></div>
+            <div class="productDescription"></div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
